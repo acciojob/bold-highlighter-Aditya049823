@@ -1,5 +1,7 @@
 function highlight() {
     //Write your code here
+	const boldElements=document.getElementsByTag("strong");
+	boldElements.style.color="green";
 
 
 }
