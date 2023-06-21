@@ -1,14 +1,19 @@
+const boldElements=document.getElementsByTagName("strong");
 function highlight() {
     //Write your code here
-	const boldElements=document.getElementsByTag("strong");
-	boldElements.style.color="green";
-
-
+	//const boldElements=document.getElementsByTagName("strong");
+	for(let i=0;i<boldElements.length;i++)
+		{
+			boldElements[i].style.color="green";
+		}
 }
 
 
 function return_normal() {
     //Write your code here
-
+	for(let i=0;i<boldElements.length;i++)
+		{
+			boldElements[i].style.color="black";
+		}
     
 }
